@@ -12,7 +12,7 @@ const showDice = () => {
 const checkDice = () => {
     const radios = document.querySelectorAll("input[type=radio]");
     show("block", "none", "block", "block", "none");
-    div1.innerHTML = `<img src="./imges/${n}.png">`;
+    s1.innerHTML = `<img src="./imges/${n}.png">`;
 
     //사용자가 선택한 숫자
     let usern ;
@@ -22,10 +22,10 @@ const checkDice = () => {
             break;            
         }
     }
-    if(n == usern) {
-        div3.innerHTML = `<img src="./imges/o.png">`;
+    if(n == usern) {           // 비교연산자 === : 데이터 타입도 비교.
+        s3.innerHTML = `<img src="./imges/o.png">`;
     } else {
-        div3.innerHTML = `<img src="./imges/x.png">`;
+        s3.innerHTML = `<img src="./imges/x.png">`;
     }
     document.querySelector("form").reset();
     console.log(n, usern);
