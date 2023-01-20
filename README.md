@@ -3,4 +3,4 @@
 ### 1.주사위선택
 ### 2.예상 번호 선택
 ### 3.결과 확인
-## https://dnadit.github.io/JS_project1/
++호스팅주소 : https://dnadit.github.io/JS_project1/
